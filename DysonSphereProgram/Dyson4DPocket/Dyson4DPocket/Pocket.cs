@@ -667,6 +667,7 @@ namespace Dyson4DPocket
                         _uiStorage.factory = factory;
                         _uiStorage.factoryStorage = factoryStorage;
                         _uiStorage.player = GameMain.mainPlayer;
+                        _uiStorage.history = GameMain.history;
                         _uiStorage.OnStorageIdChange();
                         _uiStorage.eventLock = true;
                         _uiStorage.transform.SetAsLastSibling();
